@@ -1,0 +1,68 @@
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+
+
+Vue.use(VueRouter)
+
+const router = new VueRouter({
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: Home
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
+    },
+    {
+      path: '/create-profile',
+      name: 'create-profile',
+      component: CreateProfile
+    }
+  ]
+})
+
+
+
+////////////////////////:
+
+
+
+<template>
+    <div>
+      <h1>Créer un profil</h1>
+      <form>
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" v-model="username">
+        <label for="email">Adresse email :</label>
+        <input type="email" id="email" v-model="email">
+        <button type="submit" @click="submit">Créer mon profil</button>
+      </form>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    name: 'CreateProfile',
+    data() {
+      return {
+        username: '',
+        email: ''
+      }
+    },
+    methods: {
+      submit() {
+        // Traiter les données du formulaire ici
+      }
+    }
+  }
+  </script>
+  

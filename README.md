@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+# MyNetWork
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+- Ce projet n'est pas du tout fini à cause de gros problème de connexion
+- De gros problèmes de versions avec Node.js et des problèmes de dépendances ont retardé la finition de ce projet
+- Des problèmes d'autorisation sont survenus lors de la création de server.json, de FireBase ou même Okla
 
-## Recommended IDE Setup
+Je sais bien que ce projet ne vaut rien en tant que tel et j'en suis sincèrement désolé.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Merci pour votre compréhension
+
+# TODO
+
+- afficher les articles dans la page d'accueil
+- page de création de profil
+- page de connexion
+- page de création de compte
+- bouton déconnexion
+- base de données fonctionnel
+- section commentaires et likes
+- CRUD
